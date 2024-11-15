@@ -20,7 +20,7 @@ import os
 app = FastAPI()
 
 # Set up CORS (Cross-Origin Resource Sharing) for allowing requests from all origins
-origins=["*"]
+origins=["https://pdfdetails-1.onrender.com/"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
